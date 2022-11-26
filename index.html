@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.84.0">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <title>Itens à Venda</title>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <section class="py-3 text-center container">
+      <div class="row py-lg-3">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-bold">Itens à Venda</h1>
+          <p class="lead text-muted">Os itens listados para venda são semi-novos ou usados. As descrições e medidas
+            estão em cada item! Retirada à combinar.<br>
+            Importante: Não será entregue para frete realizado em carroças.
+          </p>
+          <p>
+            <a href="https://api.whatsapp.com/send?phone=5551981545955" target="_blank"
+              class="btn btn-success my-2">Enviar mensagem pelo WhatsApp agora!</a>
+            <a class="btn btn-dark my-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Formas de Pagamento</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Modal Formas de Pagamento -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="./img/cash-coin.svg" width="32" height="32">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Formas de Pagamento</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Dinheiro<br>
+              PIX<br>
+              PicPay<br>
+              Cartão de Crédito (até 12x) - via PicPay<br>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info" data-bs-dismiss="modal">Entendi!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </header>
+
+  <main>
+    <div class="album py-5 bg-dark">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-1">
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Cama
+                  casal - Gramado</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Cama de casal em madeira - Móveis de Gramado. Está em ótimo estado. Medidas: aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Cama%20Casal%20Gramado."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 400,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Colchão
+                  casal</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Colchão casal D33 Marca: aaaaaaa. Medidas aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Colchão%20casal."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 200,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Cama + Colchão
+                  meio casal / viúva</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Cama meio casal com colchão D33 seminovo da Ortobom, usado por +- 5 meses.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Cama%20com%20Colchão%20meio%20casal."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 200,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Espelho
+                  - Gramado</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Espelho em madeira - Móveis de Gramado com fixação por correntes, com pequeno adesivo no canto (é possível retirar com limpa-vidros).
+                                     Medidas: aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Espelho%20Gramado."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 250,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Mesa
+                  com 6 cadeiras</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Mesa com 6 cadeiras em bom estado. Medidas da mesa: aa x aa x aa </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Mesa%20com%206%20cadeiras."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 250,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000"
+                  dy=".3em">Armário</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Armário seminovo com 2 portas e 1 gaveta. Medidas: aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Armário."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 180,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Fogão
+                  Brastemp Ative</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Fogão 4 bocas seminovo Brastemp da linha Ative! Com timer, acendimento automático e luz no forno.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Fogão%20Brastemp%20Ative."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 600,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000"
+                  dy=".3em">Torneira Elétrica 220v</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Torneira elétrica 220V - Hydra Lumen, com regulador de temperatura (não precisa desligar para trocar) 
+                                     e indicador luminoso de temperatura.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Torneira%20Elétrica%20220v."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 100,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Estante Rack
+                  vidro e bambu</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Estante de vidro e bambu "Cana da Índia". Sem nenhum cupim ou rachadura nela ou nos vidros, inteira!
+                                     Medidas: 1,50 X 0,90cm.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Estante%20Rack%20vidro%20e%20bambu."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 130,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Rack
+                  madeira</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Rack antigo de madeira em bom estado. Medidas: aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Rack%20madeira."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 100,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Nicho
+                  branco</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Nicho branco com uma divisória. Pode ser fixado na parede ou utilizado no chão (vertical ou horizontal), é bem resistente.
+                                     Medidas: aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Nicho%20branco."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 50,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000"
+                  dy=".3em">Prateleiras brancas</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Duas Prateleiras brancas e sem manchas. Acompanha suporte.
+                                     Medidas: aa x aa x aa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Prateleiras%20brancas."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 40,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000"
+                  dy=".3em">Bicicleta Monark</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Bicicleta Monark anos 90 em ótimo estado, aro 26, pneus e selim novos. Acompanha bomba.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Bicicleta%20Monark."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 250,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">Fralda
+                  geriátrica Tena</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">Fralda geriátrica Tena para incontinência severa. Estilo roupa íntima (é unissex). Pacotes lacrados com 16 unidades e o tamanho é P/M.
+                      Medidas: Tamanho P/M - Medida cintura: 80-112cm e Peso 30-70Kg (informações do fabricante).</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20Fralda%20geriátrica%20Tena."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 50,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="150" xmlns="http://www.w3.org/2000/svg"
+                role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#eeeee4" /><text x="50%" y="50%" fill="#000000" dy=".3em">DVD
+                  Player Sony</text>
+              </svg>
+
+              <div class="card-body">
+                <p class="card-text">DVD Player Sony funcionando perfeitamente. Acompanha controle, pilhas e cabo.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-warning"><a href="https://api.whatsapp.com/send?phone=5551981545955&text=Olá,%20gostaria%20das%20fotos%20do%20produto%20DVD%20Player%20Sony."
+                        class="text-decoration-none" style="color: inherit">Quero ver fotos!</a></button>
+                  </div>
+                  <small class="text-muted">R$ 50,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-3">
+    <div class="container">
+      <p class="float-end mb-3">
+        <a href="#">Voltar para o início</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
